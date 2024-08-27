@@ -1,6 +1,6 @@
 <template>
     <div class="searchContainer">
-    <i class="bi bi-search"></i>
+    <i @click="search" class="bi bi-search"></i>
     <input class="input" type="text" v-model="query" @keyup.enter="search" placeholder="Enter Username" />
     </div>
   </template>
